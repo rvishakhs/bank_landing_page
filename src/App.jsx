@@ -4,6 +4,9 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Stats from './components/Stats'
 import Business from './components/Business'
+import Billing from './components/Billing'
+import Cardsection from './components/Cardsection'
+import Testimonial from './components/Testimonial'
 
 function App() {
   return (
@@ -22,6 +25,9 @@ function App() {
           <div className={`${styles.boxWidth}`}>
             <Stats />
             <Business />
+            <Billing />
+            <Cardsection />
+            <Testimonial />
           </div>
         </div>
     </div>

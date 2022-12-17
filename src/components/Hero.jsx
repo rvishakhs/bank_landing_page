@@ -6,7 +6,7 @@ import Getstarted from './Getstarted'
 function Hero() {
   return (
     <section id='home' className={`flex md:flex-row flex-col  ${styles.paddingX}`}>
-        <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 `}>
+        <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-3 `}>
             <div className={`flex flex-row rounded-[10px] py-[6px] px-4 bg-discount-gradient mb-2 `}>
                 <img 
                     src={discount}
@@ -37,7 +37,7 @@ function Hero() {
                 We examine annual percentage rates, annual fees.
             </p>
         </div>
-        <div className={`flex-1 flex ${styles.flexCenter} relative`}>
+        <div className={`flex-1 flex ${styles.flexCenter} relative -mb-10 md:-mb-0`}>
             <img 
                 src={robot}
                 alt="robot"

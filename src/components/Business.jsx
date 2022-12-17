@@ -8,7 +8,7 @@ import Feature from './Feature'
 
 function Business() {
   return (
-    <section id='features' className={`${layout.section} px-6 md:px-16 my-6 md:my-10`}>
+    <section id='features' className={`${layout.section} px-3 md:px-16 mt-10 md:mt-0 my-6 md:my-10`}>
         <div className={layout.sectionInfo}>
             <h2 className={styles.heading2}>
                 You do the business, <br className='sm:block hidden' /> we’ll handle the money.

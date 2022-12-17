@@ -4,7 +4,7 @@ import { arrowUp } from '../assets'
 
 function Getstarted() {
   return (
-    <div className={`${styles.flexCenter} h-[140px] w-[140px] rounded-full bg-blue-gradient cursor-pointer p-[2px]`}>
+    <div className={`${styles.flexCenter} hover:scale-105 h-[140px] w-[140px] rounded-full bg-blue-gradient cursor-pointer p-[2px]`}>
         <div className='bg-black w-[100%] h-[100%] rounded-full flex items-center justify-center flex-col'>
             <div className={`${styles.flexStart} flex-row mr-3`}>
                 <p className='font-poppins font-medium leading-[23px] text-[18px]'>
