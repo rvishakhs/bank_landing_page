@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './style'
 import Navbar from './components/Navbar'
+import Hero from './components/Hero'
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
         </div>
         <div className={`bg-primary ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>
-            hero
+            <Hero />
           </div>
         <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>
