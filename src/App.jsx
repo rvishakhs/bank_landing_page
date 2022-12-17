@@ -2,6 +2,8 @@ import React from 'react'
 import styles from './style'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import Stats from './components/Stats'
+import Business from './components/Business'
 
 function App() {
   return (
@@ -11,18 +13,17 @@ function App() {
             <Navbar />
           </div>
         </div>
-        <div className={`bg-primary ${styles.flexStart}`}>
+        <div className={`bg-primary ${styles.flexCenter}`}>
           <div className={`${styles.boxWidth}`}>
             <Hero />
           </div>
+      </div>
         <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>
-            Card Section 
-            Billig Sefction 
-
+            <Stats />
+            <Business />
           </div>
         </div>
-      </div>
     </div>
   )
 }
