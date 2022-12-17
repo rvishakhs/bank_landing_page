@@ -1,6 +1,10 @@
 import React from 'react'
 import styles , { layout } from '../style'
 import Button from './Button'
+import {features} from '../constants/index'
+import Feature from './Feature'
+
+
 
 function Business() {
   return (
@@ -11,6 +15,15 @@ function Business() {
             </h2>
             <p className={`max-w-[470px] ${styles.paragraph} mt-5`}>With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the market.</p>   
             <Button styles="rounded-xl"/> 
+        </div>
+        <div className={`${layout.sectionImg} flex-col`}>
+            {features.map((feature, index) => (
+                <Feature 
+                    key={feature.id} 
+                    {...feature} 
+                    index={index}
+                />
+            ))}
         </div>
     </section>
   )
