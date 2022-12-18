@@ -8,6 +8,7 @@ import Billing from './components/Billing'
 import Cardsection from './components/Cardsection'
 import Testimonial from './components/Testimonial'
 import Client from './components/Client'
+import CTA from './components/CTA'
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
             <Cardsection />
             <Testimonial />
             <Client />
+            <CTA />
           </div>
         </div>
     </div>
