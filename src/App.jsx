@@ -7,6 +7,7 @@ import Business from './components/Business'
 import Billing from './components/Billing'
 import Cardsection from './components/Cardsection'
 import Testimonial from './components/Testimonial'
+import Client from './components/Client'
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             <Billing />
             <Cardsection />
             <Testimonial />
+            <Client />
           </div>
         </div>
     </div>
